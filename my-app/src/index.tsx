@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import ButtonInc from './pages/ButtonInc';
 import ToggleVis from './pages/1.ToggleVis';
 import TextInputDisplay from './pages/2.TextInputDisplay';
+import ListAdder from './pages/3.ListAdder';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <TextInputDisplay />
+    <ListAdder />
   </React.StrictMode>
 );
 
