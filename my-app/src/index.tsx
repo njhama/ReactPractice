@@ -4,13 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ButtonInc from './pages/ButtonInc';
+import ToggleVis from './pages/1.ToggleVis';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ButtonInc />
+    <ToggleVis />
   </React.StrictMode>
 );
 
