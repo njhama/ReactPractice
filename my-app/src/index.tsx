@@ -5,14 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ButtonInc from './pages/ButtonInc';
 import ToggleVis from './pages/1.ToggleVis';
-
+import TextInputDisplay from './pages/2.TextInputDisplay';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ToggleVis />
+    <TextInputDisplay />
   </React.StrictMode>
 );
 
